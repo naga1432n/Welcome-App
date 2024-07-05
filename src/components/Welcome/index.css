@@ -1,0 +1,38 @@
+.welcome-container {
+  background-color: #1e293b;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-heading {
+  font-family: 'Bree Serif', serif;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.welcome-message {
+  font-family: 'Bree Serif', serif;
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.subscribe-button {
+  background-color: #f0bb03;
+  color: #1e293b;
+  font-family: 'Bree Serif', serif;
+  font-size: 1rem;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.subscribe-button:hover {
+  opacity: 0.9;
+}
